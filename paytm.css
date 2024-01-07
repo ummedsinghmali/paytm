@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;    
+   
+}
+/*navbar*/
+.navContainer{
+   position:fixed;
+   top:0px;
+    display:flex;
+    justify-content: space-evenly;
+   background-color: white;
+    height:92px;
+    width:100%;
+
+}
+.navContainer img{
+    height: 55px;
+    width:180px;
+    margin-top:15px;
+}
+.navContainer button{
+    border:none;
+    background-color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 550;
+    padding:12px;
+    margin:20px;
+    height: 44px;
+}
+.sigInContainer{
+    display: flex;
+}
+#signIn{
+    background-color:darkblue;
+    height: 38px;
+    width:114px;
+    border-radius: 15px;
+   
+    
+}
+#circle-user-icon{
+    height: 34px;
+    width:34px;
+    position:relative;
+    margin-top:-10%;
+    float:right;
+    background-color:darkblue;
+}
+/*section = kycInfo*/
+.kycInfo{
+    text-align: center;
+    height:38px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    font-size:16px;
+    padding-top:10px;
+    font-weight: 600;
+   margin-top:92px;
+    word-spacing: 1px;
+
+}
+.kycInfo a{
+    text-decoration: none;
+    color:black;
+    margin-top:4px;
+    
+}
+/* dowloadAppAdvertisment */
+.dowloadApp{
+    display:flex;
+    height:519px;
+   padding: 90px 0 50px;
+
+    width: 100%;
+    
+}
+.dowloadAppText{
+    padding-left: 120px;
+    width:50%;
+    
+}
+.dowloadAppText img{
+    height:80px;
+    width:80px;
+    margin-bottom: 50px;
+    
+}
+.dowloadAppText h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 50px;
+   
+}
+.dowloadAppPara{
+    line-height: 28px;
+}
+.dowloadAppAdvertisment{
+    height:528px;
+    width:504px;
+    margin-left:20%;
+    }
+    .dowloadAppButton{
+        background-color: black;
+        border-radius:50px;
+        color:white;
+        width:250px;
+        height: 44px;
+        text-align: center;
+        margin-top:40px;
+        display: flex;
+        font-size: 15px;
+        
+        
+    }
+    .dowloadAppButton i , .dowloadAppButton span{
+        color: white;
+        margin:14px ;
+        
+
+    }
+    /* payBillContainer */
+    .payBills{
+        height:382px;
+        background-color : #00BAF2;
+    }
+    .payBillHeading{
+        font-size:36px;
+        color:white;
+        margin-left:140px;
+        padding-top:80px;
+        margin-bottom:30px;
+    }
+    .payBillContainer{
+        
+        display:flex;
+        justify-content: space-evenly;
+        margin-left: 140px;
+    }
+    .payBillContainer div{
+        background-color: #00BAF2;
+        height:183px;
+        width:152px;
+        border-radius: 10px;
+       
+        
+    }
+    .payBillContainer img ,.bookTicketsContainer img{
+        height: 64px;
+        width: 64px;
+        margin-left:45px;
+    }
+    .payBillContainer p ,.bookTicketsContainer p{
+        text-align: left;
+        line-height: 25px;
+        color:white;
+        font-weight: 620;
+        margin-left:50px;
+        margin-top:10px;
+    }
+    /*Book Tickets Window*/
+    .bookTickests{
+        height:350px;
+        background-color : #0F4A8F;
+    }
+    
+    .bookTicketsContainer{
+         
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .bookTickestsContainer div{
+        background-color: #0F4A8A;
+        height:183px;
+        width:152px;
+        border-radius: 10px;
+        margin-left: 140px;
+    }
+    /*Instruction*/
+    .instructions{
+        height:auto;
+        padding:100px 160px 0px 150px;
+        background-color:#F5F7FA;
+        /* margin-bottom: 10px; */
+    }
+    .instructionheading{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .instructioncontainer{
+        display:flex;
+        flex-direction: row;
+        background-color: white;
+        padding:40px 20px 20px 60px;
+    }
+    .wallet{
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .wallet span{
+        font-size:18px;
+        font-weight: bold;
+        margin:23px;
+    }
+    .wallet img{
+        height: 80px;
+    }
+   
+    .instructionHeading{
+        font-size:36px;
+        margin-left:50px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 25px;
+
+    }
+    .instructionPara{
+        margin-left:50px;
+        line-height: 28px;
+
+    }
+    .insturctionAdvertisment{
+        height: 460px;
+        width: 539px;
+        
+    }
+    .instructionbutton{
+        margin-left: 50px;
+    }
+    /*4th instruction by paytm*/
+    .instructions4th{
+        background-color: white;
+    }
+    .inst4Container{
+        padding:40px 20px 20px 0px;
+        
+    }
+    .paytmBankIcon{
+        margin-left: 52px;
+        margin-bottom: 50px;
+
+    }
+    .paytmBankIcon img{
+        height: 35px;
+        
+    }
+    .learnMoreButton {
+        height: 35px;
+        width: 162px;
+        border-radius: 30px;
+        background-color:darkblue;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding-top:15px;
+        margin:40px 40px;
+
+    }
+    .instruction4Para{
+        margin-left:50px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        font-weight:550;
+
+    }
+    .insturction4Advertisment{
+       position: relative;
+       left: 210px;
+    
+    }
+
+    /* 6th instruction related to marking */
+    .instructioncontainer6{
+        display:flex;
+        flex-direction: row;
+        padding:40px 20px 20px 60px;
+      
+    }
+  .instructions6{
+        background-image: url("https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png");
+        background-size: contain;
+    }
+   
+
+     /* 7 and 8 intruction and 1 and 2 instruction of business service */
+     
+     .instructioncontainer7 , .instructioncontainer8{
+        background-color: #eaeaf0;
+        display:flex;
+        flex-direction: row;
+        padding:40px 20px 20px 60px;
+     }
+    
